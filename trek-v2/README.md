@@ -23,25 +23,6 @@ npm start
 ```
 Frontend runs at: http://localhost:3000
 
-## ✨ New in v2
-- ✅ Real-time autocomplete suggestions (from /api/suggest)
-- ✅ Subreddit filter in search bar
-- ✅ Result count selector (5/10/20/50)
-- ✅ Shimmer skeleton loading cards
-- ✅ Staggered card animations
-- ✅ Animated relevance score bar
-- ✅ Collapsible trending detail panels
-- ✅ Pulsing live status indicator
-- ✅ Java 21 compatible (pom.xml updated)
-
-## 📡 API Endpoints
-- GET /api/search?q=...&algo=bm25&top=10
-- GET /api/search?q=...&subreddit=java&top=5
-- GET /api/compare?q=...&top=5
-- GET /api/suggest?q=...
-- GET /api/health
-- GET /api/stats
-
 ## 🧠 Algorithms
 - BM25     — Okapi BM25, length-normalized
 - TF-IDF   — Classic inverted index
